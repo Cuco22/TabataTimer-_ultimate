@@ -1,0 +1,5 @@
+<activity
+    android:name=".TimerActivity"
+    android:label="Timer Activity">
+    <!-- Aggiungi eventuali altre proprietà necessarie -->
+</activity>

@@ -1,0 +1,154 @@
+<resources>
+    <string-array name="rounds_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="durata_arrays">
+        <item>0min 1sec</item>
+        <item>0min 2sec</item>
+        <item>0min 3sec</item>
+        <item>0min 4sec</item>
+        <item>0min 5sec</item>
+        <item>0min 6sec</item>
+        <item>0min 7sec</item>
+        <item>0min 8sec</item>
+        <item>0min 9sec</item>
+        <item>0min 10sec</item>
+        <item>0min 15sec</item>
+        <item>0min 20sec</item>
+        <item>0min 25sec</item>
+        <item>0min 30sec</item>
+        <item>0min 35sec</item>
+        <item>0min 40sec</item>
+        <item>0min 45sec</item>
+        <item>0min 50sec</item>
+        <item>0min 55sec</item>
+        <item>0min 60sec</item>
+        <item>1min 5sec</item>
+        <item>1min 10sec</item>
+        <item>1min 15sec</item>
+        <item>1min 20sec</item>
+        <item>1min 25sec</item>
+        <item>1min 30sec</item>
+        <item>1min 35sec</item>
+        <item>1min 40sec</item>
+        <item>1min 45sec</item>
+        <item>1min 50sec</item>
+        <item>1min 55sec</item>
+        <item>2min 0sec</item>
+        <item>2min 5sec</item>
+        <item>2min 10sec</item>
+        <item>2min 15sec</item>
+        <item>2min 20sec</item>
+        <item>2min 25sec</item>
+        <item>2min 30sec</item>
+        <item>2min 35sec</item>
+        <item>2min 40sec</item>
+        <item>2min 45sec</item>
+        <item>2min 50sec</item>
+        <item>2min 55sec</item>
+        <item>3min 0sec</item>
+        <item>3min 5sec</item>
+        <item>3min 10sec</item>
+        <item>3min 15sec</item>
+        <item>3min 20sec</item>
+        <item>3min 25sec</item>
+        <item>3min 30sec</item>
+        <item>3min 35sec</item>
+        <item>3min 40sec</item>
+        <item>3min 45sec</item>
+        <item>3min 50sec</item>
+        <item>3min 55sec</item>
+        <item>4min 0sec</item>
+        <item>4min 5sec</item>
+        <item>4min 10sec</item>
+        <item>4min 15sec</item>
+        <item>4min 20sec</item>
+        <item>4min 25sec</item>
+        <item>4min 30sec</item>
+        <item>4min 35sec</item>
+        <item>4min 40sec</item>
+        <item>4min 45sec</item>
+        <item>4min 50sec</item>
+        <item>4min 55sec</item>
+        <item>5min 0sec</item>
+        <item>5min 5sec</item>
+        <item>5min 10sec</item>
+        <item>5min 15sec</item>
+        <item>5min 20sec</item>
+        <item>5min 25sec</item>
+        <item>5min 30sec</item>
+        <item>5min 35sec</item>
+        <item>5min 40sec</item>
+        <item>5min 45sec</item>
+        <item>5min 50sec</item>
+        <item>5min 55sec</item>
+        <item>6min 0sec</item>
+        <item>6min 5sec</item>
+        <item>6min 10sec</item>
+        <item>6min 15sec</item>
+        <item>6min 20sec</item>
+        <item>6min 25sec</item>
+        <item>6min 30sec</item>
+        <item>6min 35sec</item>
+        <item>6min 40sec</item>
+        <item>6min 45sec</item>
+        <item>6min 50sec</item>
+        <item>6min 55sec</item>
+        <item>7min 0sec</item>
+        <item>7min 5sec</item>
+        <item>7min 10sec</item>
+        <item>7min 15sec</item>
+        <item>7min 20sec</item>
+        <item>7min 25sec</item>
+        <item>7min 30sec</item>
+        <item>7min 35sec</item>
+        <item>7min 40sec</item>
+        <item>7min 45sec</item>
+        <item>7min 50sec</item>
+        <item>7min 55sec</item>
+        <item>8min 0sec</item>
+        <item>8min 5sec</item>
+        <item>8min 10sec</item>
+        <item>8min 15sec</item>
+        <item>8min 20sec</item>
+        <item>8min 25sec</item>
+        <item>8min 30sec</item>
+        <item>8min 35sec</item>
+        <item>8min 40sec</item>
+        <item>8min 45sec</item>
+        <item>8min 50sec</item>
+        <item>8min 55sec</item>
+        <item>9min 0sec</item>
+        <item>9min 10sec</item>
+        <item>9min 15sec</item>
+        <item>9min 20sec</item>
+        <item>9min 25sec</item>
+        <item>9min 30sec</item>
+        <item>9min 35sec</item>
+        <item>9min 40sec</item>
+        <item>9min 45sec</item>
+        <item>9min 50sec</item>
+        <item>9min 55sec</item>
+        <item>10min 0sec</item>
+    </string-array>
+</resources>

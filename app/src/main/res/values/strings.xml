@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Timer Tabata</string>
+    <string name="avvia_timer">AVVIA TIMER</string>
+    <string name="tabata">TABATA</string>
+    <string name="torna_al_menu">torna al menu\'</string>
+    <string name="menú">Menú</string>
+    <string name="TABATA">TABATA -</string>
+    <string name="durata_riposo">Durata riposo</string>
+    <string name="tabata1">TABATA</string>
+    <string name="round_di_lavoro">Round di lavoro</string>
+    <string name="durata_round">Durata Round</string>
+    <string name="timer_iniziale">timer iniziale</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EndActivity">
+
+    <ImageView
+        android:id="@+id/sfondoEnd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sfondo_fine"
+        android:importantForAccessibility="no" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sfondoEnd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sfondoEnd"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:id="@+id/check_img"
+            android:layout_width="172dp"
+            android:layout_height="157dp"
+            android:layout_below="@id/durataTabata_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/check_verde"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/end_txt"
+            android:layout_width="131dp"
+            android:layout_height="32dp"
+            android:layout_below="@id/check_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="casual"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu_btn"
+            android:layout_width="289dp"
+            android:layout_height="63dp"
+            android:layout_below="@id/txt_fraseEnd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/menú" />
+
+        <TextView
+            android:id="@+id/txt_fraseEnd"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/end_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/tabataEnd_txt"
+            android:layout_width="92dp"
+            android:layout_height="26dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/TABATA"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/durataTabata_txt"
+            android:layout_width="175dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/tabataEnd_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

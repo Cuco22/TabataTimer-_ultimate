@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TimerActivity">
+
+    <ImageView
+        android:id="@+id/sfondoTimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:srcCompat="@drawable/sfondotimer15" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#97000000"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+
+        <TextView
+            android:id="@+id/conteggioRound_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="98dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="#BA000000"
+            android:backgroundTint="#65020202"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FDFDFD"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/btn_StartStop"
+            android:layout_width="347dp"
+            android:layout_height="629dp"
+            android:layout_alignTop="@id/fraseMotivazionale_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-443dp"
+            android:visibility="invisible" />
+
+
+        <ProgressBar
+            android:id="@+id/barraDelProgresso"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
+            android:layout_width="328dp"
+            android:layout_height="515dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:progressBackgroundTint="@android:color/white"
+            android:progressTint="@android:color/holo_purple"
+            android:rotation="115" />
+
+        <TextView
+            android:id="@+id/tempoRimanente_txt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/barraDelProgresso"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-180dp"
+            android:background="#02000000"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#F2F1F4"
+            android:textSize="40sp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/tabata_txt"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#BA000000"
+            android:backgroundTint="#65020202"
+            android:fontFamily="monospace"
+            android:text="@string/tabata"
+            android:textAlignment="center"
+            android:textColor="#F6F5F6"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="49dp"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@android:drawable/ic_menu_revert"
+            android:onClick="backButtonClick"
+            android:padding="10dp"
+            android:text="@string/torna_al_menu"
+            android:textColor="#008C9EFF"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/fraseMotivazionale_txt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/barraDelProgresso"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-100dp"
+            android:background="#83000000"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#F1EFF4"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
