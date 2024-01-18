@@ -9,33 +9,34 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class EndActivity extends AppCompatActivity {
-    String durataTabata;            //durata del tabata totale espressa come stringa "x min y sec" da inserire nella TextView "durataTabata_txt"
-    TextView durata_txt = findViewById(R.id.durataTabata_txt);
-
-    String[] frasiMotivazionali = {         //frase inserita casualmente sotto alla frase "Ben Fatto!" ("end_txt")
-            "Che muscoli!",
-            "Troppo Forte!",
-            "FENOMENOOO",
-            "Piú grosso di Arnold...",
-            "Pronto al mr. Olympia?",
-            "Incredibile!",
-            "Ce l'hai fatta!! Non é stato cosí male no?",
-            "nuovo talento?",
-            "Continua cosí!!!",
-            "sei enorme, amico.",
-            "gli altri avrebbero mollato, lo sai?"
+    private final String[] frasiMotivazionali = {         //frase inserita casualmente sotto alla frase "Ben Fatto!" ("end_txt")
+            "Che muscoli! " + "\uD83D\uDD25" + "\uD83D\uDD25",
+            "Troppo Forte! " + "\uD83D\uDCAA",
+            "FENOMENOOO  " + "\uD83D\uDD25" + "\uD83D\uDCE3",
+            "Piú grosso di Arnold... " + "\uD83D\uDD25"  + "\uD83E\uDD47",
+            "Pronto al mr. Olympia? " + "\uD83E\uDD47",
+            "Incredibile! " + "\uD83D\uDE32" + "\uD83D\uDD25",
+            "Ce l'hai fatta!!" + "\uD83D\uDD25",
+            "Non é stato cosí male no?",
+            "nuovo talento?" + "\uD83C\uDF0D" + "\uD83E\uDD47",
+            "Continua cosí!!! "  +"\uD83D\uDE2C" + "\uD83D\uDCAA",
+            "sei enorme, uomo. ",
+            "gli altri avrebbero mollato, lo sai? " + "\uD83D\uDE36"
     };
-
-    TextView fraseEnd_txt = findViewById(R.id.txt_fraseEnd);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_end);
 
+        TextView durata_txt = findViewById(R.id.durataTabata_txt);
+        TextView fraseEnd_txt = findViewById(R.id.txt_fraseEnd);
+
         //settaggio TextView della durata totale del tabata appena concluso
         int durataTotale_sec = getIntent().getIntExtra("durataTotale", 0);
-        durataTabata = convertiSecondiInStringa(durataTotale_sec);
+
+        //durata del tabata totale espressa come stringa "x min y sec" da inserire nella TextView "durataTabata_txt"
+        String durataTabata = convertiSecondiInStringa(durataTotale_sec);
         String s_durataTimer = "Durata totale: " + durataTabata;
         durata_txt.setText(s_durataTimer);
 

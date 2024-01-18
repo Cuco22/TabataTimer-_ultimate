@@ -63,14 +63,14 @@
             android:layout_height="63dp"
             android:layout_below="@id/txt_fraseEnd"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="80dp"
             android:backgroundTint="#4CAF50"
             android:text="@string/menú" />
 
         <TextView
             android:id="@+id/txt_fraseEnd"
             android:layout_width="240dp"
-            android:layout_height="35dp"
+            android:layout_height="89dp"
             android:layout_below="@id/end_txt"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="60dp"

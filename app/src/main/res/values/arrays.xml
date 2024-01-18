@@ -23,10 +23,7 @@
     </string-array>
 
     <string-array name="durata_arrays">
-        <item>0min 1sec</item>
-        <item>0min 2sec</item>
-        <item>0min 3sec</item>
-        <item>0min 4sec</item>
+        <item>0min 0sec</item>
         <item>0min 5sec</item>
         <item>0min 6sec</item>
         <item>0min 7sec</item>

@@ -29,48 +29,49 @@
         tools:layout_editor_absoluteY="0dp">
 
 
-
         <TextView
             android:id="@+id/conteggioRound_txt"
-            android:layout_width="wrap_content"
-            android:layout_height="98dp"
-            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
             android:layout_marginTop="100dp"
             android:background="#BA000000"
             android:backgroundTint="#65020202"
-            android:fontFamily="monospace"
+            android:fontFamily="roboto"
+            android:text=""
             android:textAlignment="center"
             android:textColor="#FDFDFD"
-            android:textSize="48sp" />
+            android:textSize="32dp" />
 
         <Button
             android:id="@+id/btn_StartStop"
-            android:layout_width="347dp"
-            android:layout_height="629dp"
-            android:layout_alignTop="@id/fraseMotivazionale_txt"
+            android:layout_width="match_parent"
+            android:layout_height="558dp"
+            android:layout_below="@id/tabata_txt"
+            android:layout_marginTop="55dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="-443dp"
-            android:visibility="invisible" />
-
+            android:alpha="0"
+            android:clickable="true"
+            android:focusable="true" />
 
         <ProgressBar
             android:id="@+id/barraDelProgresso"
-            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
-            android:layout_width="328dp"
-            android:layout_height="515dp"
+            style="@style/CircularDeterminateProgressBar"
+            android:layout_width="234dp"
+            android:layout_height="197dp"
+            android:layout_below="@id/tabata_txt"
             android:layout_centerInParent="true"
-            android:indeterminate="true"
-            android:progressBackgroundTint="@android:color/white"
-            android:progressTint="@android:color/holo_purple"
-            android:rotation="115" />
+            android:layout_marginTop="201dp"
+            android:indeterminateOnly="false"
+            android:progressDrawable="@drawable/progressbar_cerchio"
+            tools:progress="0" />
 
         <TextView
             android:id="@+id/tempoRimanente_txt"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
+            android:layout_width="306dp"
+            android:layout_height="94dp"
             android:layout_below="@id/barraDelProgresso"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="-180dp"
+            android:layout_marginTop="60dp"
             android:background="#02000000"
             android:text=""
             android:textAlignment="center"
@@ -109,16 +110,14 @@
 
         <TextView
             android:id="@+id/fraseMotivazionale_txt"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/barraDelProgresso"
+            android:layout_width="374dp"
+            android:layout_height="132dp"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="-100dp"
-            android:background="#83000000"
+            android:background="#27000000"
             android:text=""
-            android:textAlignment="center"
             android:textColor="#F1EFF4"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

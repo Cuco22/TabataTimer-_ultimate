@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="coloreLavoro">#4CAF50</color>
+    <color name="coloreRiposo">#673AB7</color>
+    <color name="colorePreTimer">#172B9B</color>
+    <color name="coloreBK_Riposo">#22000000</color>
 </resources>
